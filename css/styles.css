@@ -1,0 +1,68 @@
+
+body {
+  background-image: url("../assets/symphony.png");
+  background-repeat: repeat;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1,
+h2 {
+  color: #41B877;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  height: 2px;
+  background-color: #41B877;
+}
+
+.navbar {
+  background-color: #41B877;
+}
+
+
+.navbar-default .navbar-brand,
+.nav.navbar-nav.navbar-right li a {
+    color: #d6d6d6;
+    font-size: 1.5em;
+}
+
+.main-pic {
+  border-radius: 50%;
+  width: 18%;
+  min-width: 18%
+  margin-left: 10px;
+}
+
+.site-box {
+  margin-top: 10px;
+}
+
+.site-pic {
+  width: 95%;
+  border-radius: 5%;
+}
+
+.social {
+  list-style: none;
+  font-size: 1.5em;
+  display: inline;
+}
+
+#about {
+  font-size: 1.5em;
+  padding: 25px;
+}
+
+#contact {
+  margin-top: -25px;
+}
+
+.footer {
+  color: #d6d6d6;
+  background-color: #41B877;
+  padding: 10px;
+  margin-top: 10px;
+}

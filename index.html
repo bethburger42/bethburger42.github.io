@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beth Ernsberger - Web Dev</title>
+  <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-default" role="navigation" ng-controller="NavCtrl">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Beth Ernsberger <small>&#123; Full-Stack Web Developer &#125;</small></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+  <div class="container">
+    <div id="about" class="well">
+      <p>
+      <img class="main-pic pull-right" src="assets/pdx-beth.jpg">
+      I'm a Seattle-based full-stack website developer who thrives on creative collaboration, learning about and designing intuitive websites with the latest technologies. My past worklife has been a mix of database management and website administration. Recently, I decided to change focus and expand my skillset by completing a three month Website Development Immersive program through <a href="https://generalassemb.ly/" target="_blank">General Assembly</a>. 
+      </p>
+      <p>
+      When I'm not in front of my computer, you might find me hiking or snowshoeing the trails around Seattle, putting my extensive knowledge of 80's movies/music to good use at Wednesday trivia night with my friends, or East Coast Swing dancing at the Century Ballroom.
+      </p>
+
+    </div>
+    <hr>
+    <div id="portfolio">
+      <h1 class="text-center">My Recent Work</h1>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 site-box text-center">
+          <a href="https://dreamember.herokuapp.com" target="_blank"><img class="site-pic" src="assets/dreamember-screenshot.png"></a>
+          <h2>dREaMEMBER 
+          <a href="https://dreamember.herokuapp.com" target="_blank" title="View Site"><i class="fa fa-desktop"></i></a>
+          <a href="https://github.com/bethburger42/dreamember" target="_blank" title="View Source Code"><i class="fa fa-github-square"></i></a></h2>
+          <h4>dREaMEMBER is a dream analysis and journaling application developed with Express.js, AngularJS, Node.js, MongoDB, JQuery, Tubular.js, Bcrypt, HTML5, CSS3, and Bootstrap.</h4>
+        </div>
+        <div class="col-xs-12 col-md-6 site-box text-center">
+          <a href="http://concrt.herokuapp.com/" target="_blank"><img class="site-pic" src="assets/concrt-screenshot.png"></a>
+          <h2>Concrt 
+          <a href="http://concrt.herokuapp.com/" target="_blank" title="View Site"><i class="fa fa-desktop"></i></a>
+          <a href="https://github.com/bethburger42/concrt" target="_blank" title="View Source Code"><i class="fa fa-github-square"></i></a></h2>
+          <h4>This concert finding and sharing app was built using Ruby on Rails and utilizes HTML5, CSS3, Bootstrap, Bootstrap Datepicker, D3.js, Cloudinary, JQuery Panelsnap, Bcrypt, and PostgreSQL.</h4>
+        </div>
+        <div class="col-xs-12 col-md-6 site-box text-center">
+          <a href="http://holidaze-api.herokuapp.com/" target="_blank"><img class="site-pic"src="assets/holidaze-screenshot.png"></a> 
+          <h2>Holidaze 
+          <a href="http://holidaze-api.herokuapp.com/" target="_blank" title="View Site"><i class="fa fa-desktop"></i></a>
+          <a href="https://github.com/bethburger42/holiday-party" target="_blank" title="View Source Code"><i class="fa fa-github-square"></i></a></h2>
+          <h4>Holidaze was the product of a day-long hackathon project during my WDI course at General Assembly. This application, built with React, allows a user to search for and add new holiday recipes to the database.</h4>
+        </div>
+        <div class="col-xs-12 col-md-6 site-box text-center">
+          <a href="https://karaoke-dokie.herokuapp.com/" target="_blank"><img class="site-pic" src="assets/karaoke-screenshot.png"></a>
+          <h2>Karaoke-Dokie 
+          <a href="https://karaoke-dokie.herokuapp.com/" target="_blank" title="View Site"><i class="fa fa-desktop"></i></a>
+          <a href="https://github.com/bethburger42/karaoke-dokie" target="_blank" title="View Source Code"><i class="fa fa-github-square"></i></a></h2>
+          <h4>Karaoke-Dokie is an application for finding Seattle's best karaoke spots. Built on Express and Node, it incorporates both the Google Maps and Yelp APIs, and utilizes Facebook and Passport.js for user authentication.</h4>
+        </div>
+      </div>
+    </div>
+        <hr>
+    <div id="contact" class="text-center">
+      <ul class="social">
+        <h1>Contact Me</h1>
+        <li><!-- social media links -->
+          <a href="mailto:bethburger42@gmail.com" target="_blank">Email</a> |
+          <a href="https://www.linkedin.com/in/marybethernsberger" target="_blank">LinkedIn</a> |
+          <a href="https://github.com/bethburger42" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer text-center">
+  <h4>Copyright &copy; Beth Ernsberger 2016</h4>
+  </div>
+</body>
+</html>
