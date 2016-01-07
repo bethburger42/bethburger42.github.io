@@ -32,17 +32,25 @@ hr {
 .main-pic {
   border-radius: 50%;
   width: 18%;
-  min-width: 18%
-  margin-left: 10px;
+  min-width: 18%;
+  margin-left: 10px;  
 }
 
 .site-box {
   margin-top: 10px;
 }
 
+.site-box a {
+  text-decoration: none;
+}
+
 .site-pic {
   width: 95%;
   border-radius: 5%;
+}
+
+.site-title {
+    color: #41B877;
 }
 
 .social {
