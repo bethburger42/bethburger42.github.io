@@ -22,6 +22,9 @@ hr {
   background-color: #41B877;
 }
 
+.navbar-brand {
+  padding-bottom: 20px;
+}
 
 .navbar-default .navbar-brand,
 .nav.navbar-nav.navbar-right li a {
@@ -31,9 +34,9 @@ hr {
 
 .main-pic {
   border-radius: 50%;
-  width: 18%;
-  min-width: 18%;
-  margin-left: 10px;  
+  width: 70%;
+  /*min-width: 50%;*/
+  /*margin-left: 10px;  */
 }
 
 .site-box {
@@ -50,7 +53,7 @@ hr {
 }
 
 .site-title {
-    color: #41B877;
+  color: #41B877;
 }
 
 .social {
@@ -61,11 +64,11 @@ hr {
 
 #about {
   font-size: 1.5em;
-  padding: 25px;
+  padding: 5px;
 }
 
 #contact {
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 .footer {
@@ -73,4 +76,13 @@ hr {
   background-color: #41B877;
   padding: 10px;
   margin-top: 10px;
+}
+
+// Media Queries
+
+@media screen (min-width: 769px) {
+  .about img {
+    display: none;
+  }
+
 }
